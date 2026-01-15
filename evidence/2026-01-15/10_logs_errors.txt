@@ -1,0 +1,200 @@
+                                                   #29 0x00007f952d7b8deb n/a (libgjs.so.0 + 0xc6deb)
+                                                   #30 0x00007f952d7b909a gjs_context_eval (libgjs.so.0 + 0xc709a)
+                                                   #31 0x000055d9245d13ab n/a (/usr/bin/gjs-console + 0x33ab)
+                                                   #32 0x000055d9245d0c41 n/a (/usr/bin/gjs-console + 0x2c41)
+                                                   #33 0x00007f952d029f68 n/a (libc.so.6 + 0x29f68)
+                                                   #34 0x00007f952d02a025 __libc_start_main (libc.so.6 + 0x2a025)
+                                                   #35 0x000055d9245d10f1 n/a (/usr/bin/gjs-console + 0x30f1)
+                                                   
+                                                   Stack trace of thread 486260:
+                                                   #0  0x00007f952d09b72e n/a (libc.so.6 + 0x9b72e)
+                                                   #1  0x00007f952d0902b8 n/a (libc.so.6 + 0x902b8)
+                                                   #2  0x00007f952d0908dc n/a (libc.so.6 + 0x908dc)
+                                                   #3  0x00007f952d092d98 pthread_cond_wait (libc.so.6 + 0x92d98)
+                                                   #4  0x00007f952b79ea87 _ZN7mozilla6detail21ConditionVariableImpl4waitERNS0_9MutexImplE (libmozjs-140.so.0 + 0xd9ea87)
+                                                   #5  0x00007f952acbe301 n/a (libmozjs-140.so.0 + 0x2be301)
+                                                   #6  0x00007f952acbe35a n/a (libmozjs-140.so.0 + 0x2be35a)
+                                                   #7  0x00007f952acb6147 n/a (libmozjs-140.so.0 + 0x2b6147)
+                                                   #8  0x00007f952d0937db n/a (libc.so.6 + 0x937db)
+                                                   #9  0x00007f952d111278 n/a (libc.so.6 + 0x111278)
+                                                   
+                                                   Stack trace of thread 486283:
+                                                   #0  0x00007f952d09b72e n/a (libc.so.6 + 0x9b72e)
+                                                   #1  0x00007f952d0902b8 n/a (libc.so.6 + 0x902b8)
+                                                   #2  0x00007f952d0902fd n/a (libc.so.6 + 0x902fd)
+                                                   #3  0x00007f952d10456e ppoll (libc.so.6 + 0x10456e)
+                                                   #4  0x00007f952d5f5af4 n/a (libglib-2.0.so.0 + 0x5faf4)
+                                                   #5  0x00007f952d5f61d0 g_main_context_iteration (libglib-2.0.so.0 + 0x601d0)
+                                                   #6  0x00007f952d8c80cd n/a (libdconfsettings.so + 0xc0cd)
+                                                   #7  0x00007f952d6280e6 n/a (libglib-2.0.so.0 + 0x920e6)
+                                                   #8  0x00007f952d0937db n/a (libc.so.6 + 0x937db)
+                                                   #9  0x00007f952d111278 n/a (libc.so.6 + 0x111278)
+                                                   
+                                                   Stack trace of thread 486258:
+                                                   #0  0x00007f952d09b72e n/a (libc.so.6 + 0x9b72e)
+                                                   #1  0x00007f952d0902b8 n/a (libc.so.6 + 0x902b8)
+                                                   #2  0x00007f952d0908dc n/a (libc.so.6 + 0x908dc)
+                                                   #3  0x00007f952d092d98 pthread_cond_wait (libc.so.6 + 0x92d98)
+                                                   #4  0x00007f952b79ea87 _ZN7mozilla6detail21ConditionVariableImpl4waitERNS0_9MutexImplE (libmozjs-140.so.0 + 0xd9ea87)
+                                                   #5  0x00007f952acbe301 n/a (libmozjs-140.so.0 + 0x2be301)
+                                                   #6  0x00007f952acbe35a n/a (libmozjs-140.so.0 + 0x2be35a)
+                                                   #7  0x00007f952acb6147 n/a (libmozjs-140.so.0 + 0x2b6147)
+                                                   #8  0x00007f952d0937db n/a (libc.so.6 + 0x937db)
+                                                   #9  0x00007f952d111278 n/a (libc.so.6 + 0x111278)
+                                                   
+                                                   Stack trace of thread 486255:
+                                                   #0  0x00007f952d10f219 syscall (libc.so.6 + 0x10f219)
+                                                   #1  0x00007f952d627962 g_cond_wait (libglib-2.0.so.0 + 0x91962)
+                                                   #2  0x00007f952d5bbb04 n/a (libglib-2.0.so.0 + 0x25b04)
+                                                   #3  0x00007f952d6283a4 n/a (libglib-2.0.so.0 + 0x923a4)
+                                                   #4  0x00007f952d6280e6 n/a (libglib-2.0.so.0 + 0x920e6)
+                                                   #5  0x00007f952d0937db n/a (libc.so.6 + 0x937db)
+                                                   #6  0x00007f952d111278 n/a (libc.so.6 + 0x111278)
+                                                   
+                                                   Stack trace of thread 486259:
+                                                   #0  0x00007f952d09b72e n/a (libc.so.6 + 0x9b72e)
+                                                   #1  0x00007f952d0902b8 n/a (libc.so.6 + 0x902b8)
+                                                   #2  0x00007f952d0908dc n/a (libc.so.6 + 0x908dc)
+                                                   #3  0x00007f952d092d98 pthread_cond_wait (libc.so.6 + 0x92d98)
+                                                   #4  0x00007f952b79ea87 _ZN7mozilla6detail21ConditionVariableImpl4waitERNS0_9MutexImplE (libmozjs-140.so.0 + 0xd9ea87)
+                                                   #5  0x00007f952acbe301 n/a (libmozjs-140.so.0 + 0x2be301)
+                                                   #6  0x00007f952acbe35a n/a (libmozjs-140.so.0 + 0x2be35a)
+                                                   #7  0x00007f952acb6147 n/a (libmozjs-140.so.0 + 0x2b6147)
+                                                   #8  0x00007f952d0937db n/a (libc.so.6 + 0x937db)
+                                                   #9  0x00007f952d111278 n/a (libc.so.6 + 0x111278)
+                                                   
+                                                   Stack trace of thread 486256:
+                                                   #0  0x00007f952d09b72e n/a (libc.so.6 + 0x9b72e)
+                                                   #1  0x00007f952d0902b8 n/a (libc.so.6 + 0x902b8)
+                                                   #2  0x00007f952d0902fd n/a (libc.so.6 + 0x902fd)
+                                                   #3  0x00007f952d10456e ppoll (libc.so.6 + 0x10456e)
+                                                   #4  0x00007f952d5f5af4 n/a (libglib-2.0.so.0 + 0x5faf4)
+                                                   #5  0x00007f952d5f61d0 g_main_context_iteration (libglib-2.0.so.0 + 0x601d0)
+                                                   #6  0x00007f952d5f6221 n/a (libglib-2.0.so.0 + 0x60221)
+                                                   #7  0x00007f952d6280e6 n/a (libglib-2.0.so.0 + 0x920e6)
+                                                   #8  0x00007f952d0937db n/a (libc.so.6 + 0x937db)
+                                                   #9  0x00007f952d111278 n/a (libc.so.6 + 0x111278)
+                                                   
+                                                   Stack trace of thread 486261:
+                                                   #0  0x00007f952d09b72e n/a (libc.so.6 + 0x9b72e)
+                                                   #1  0x00007f952d0902b8 n/a (libc.so.6 + 0x902b8)
+                                                   #2  0x00007f952d0908dc n/a (libc.so.6 + 0x908dc)
+                                                   #3  0x00007f952d092d98 pthread_cond_wait (libc.so.6 + 0x92d98)
+                                                   #4  0x00007f952b79ea87 _ZN7mozilla6detail21ConditionVariableImpl4waitERNS0_9MutexImplE (libmozjs-140.so.0 + 0xd9ea87)
+                                                   #5  0x00007f952acbe301 n/a (libmozjs-140.so.0 + 0x2be301)
+                                                   #6  0x00007f952acbe35a n/a (libmozjs-140.so.0 + 0x2be35a)
+                                                   #7  0x00007f952acb6147 n/a (libmozjs-140.so.0 + 0x2b6147)
+                                                   #8  0x00007f952d0937db n/a (libc.so.6 + 0x937db)
+                                                   #9  0x00007f952d111278 n/a (libc.so.6 + 0x111278)
+                                                   
+                                                   Stack trace of thread 486282:
+                                                   #0  0x00007f952a3ddfa4 n/a (libfontconfig.so.1 + 0x24fa4)
+                                                   #1  0x00007f952a3de94c n/a (libfontconfig.so.1 + 0x2594c)
+                                                   #2  0x00007f952a3d8d36 n/a (libfontconfig.so.1 + 0x1fd36)
+                                                   #3  0x00007f952a3c98a9 n/a (libfontconfig.so.1 + 0x108a9)
+                                                   #4  0x00007f952a3c999d n/a (libfontconfig.so.1 + 0x1099d)
+                                                   #5  0x00007f952a3c9bed n/a (libfontconfig.so.1 + 0x10bed)
+                                                   #6  0x00007f952a3c9ca2 FcConfigBuildFonts (libfontconfig.so.1 + 0x10ca2)
+                                                   #7  0x00007f952a3d69dc FcInitLoadConfigAndFonts (libfontconfig.so.1 + 0x1d9dc)
+                                                   #8  0x00007f952a3c6296 n/a (libfontconfig.so.1 + 0xd296)
+                                                   #9  0x00007f952a3c62fd n/a (libfontconfig.so.1 + 0xd2fd)
+                                                   #10 0x00007f9522f7f506 n/a (libpangoft2-1.0.so.0 + 0xe506)
+                                                   #11 0x00007f952d6280e6 n/a (libglib-2.0.so.0 + 0x920e6)
+                                                   #12 0x00007f952d0937db n/a (libc.so.6 + 0x937db)
+                                                   #13 0x00007f952d111278 n/a (libc.so.6 + 0x111278)
+                                                   
+                                                   Stack trace of thread 486257:
+                                                   #0  0x00007f952d09b72e n/a (libc.so.6 + 0x9b72e)
+                                                   #1  0x00007f952d0902b8 n/a (libc.so.6 + 0x902b8)
+                                                   #2  0x00007f952d0902fd n/a (libc.so.6 + 0x902fd)
+                                                   #3  0x00007f952d10456e ppoll (libc.so.6 + 0x10456e)
+                                                   #4  0x00007f952d5f5af4 n/a (libglib-2.0.so.0 + 0x5faf4)
+                                                   #5  0x00007f952d5f64cf g_main_loop_run (libglib-2.0.so.0 + 0x604cf)
+                                                   #6  0x00007f952d4657aa n/a (libgio-2.0.so.0 + 0x12e7aa)
+                                                   #7  0x00007f952d6280e6 n/a (libglib-2.0.so.0 + 0x920e6)
+                                                   #8  0x00007f952d0937db n/a (libc.so.6 + 0x937db)
+                                                   #9  0x00007f952d111278 n/a (libc.so.6 + 0x111278)
+                                                   
+                                                   Stack trace of thread 486264:
+                                                   #0  0x00007f952d10f219 syscall (libc.so.6 + 0x10f219)
+                                                   #1  0x00007f952d627e3c g_cond_wait_until (libglib-2.0.so.0 + 0x91e3c)
+                                                   #2  0x00007f952d5bbacd n/a (libglib-2.0.so.0 + 0x25acd)
+                                                   #3  0x00007f952d6288f2 n/a (libglib-2.0.so.0 + 0x928f2)
+                                                   #4  0x00007f952d6280e6 n/a (libglib-2.0.so.0 + 0x920e6)
+                                                   #5  0x00007f952d0937db n/a (libc.so.6 + 0x937db)
+                                                   #6  0x00007f952d111278 n/a (libc.so.6 + 0x111278)
+                                                   ELF object binary architecture: AMD x86-64
+░░ Subject: Processo 486253 (gjs) despejou núcleo
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ Documentation: man:core(5)
+░░ 
+░░ Processo 486253 (gjs) travou e despejou o núcleo.
+░░ 
+░░ Isso normalmente indica um erro de programação no programa que travou e
+░░ deveria ser relatado para seu fabricante como um erro.
+jan 09 22:35:11 kali-a25 (generato[492427]: /usr/lib/systemd/system-generators/systemd-sslh-generator terminated by signal SEGV.
+jan 09 22:35:28 kali-a25 (generato[493804]: /usr/lib/systemd/system-generators/systemd-sslh-generator terminated by signal SEGV.
+jan 09 22:36:14 kali-a25 (generato[499138]: /usr/lib/systemd/system-generators/systemd-sslh-generator terminated by signal SEGV.
+jan 09 22:36:18 kali-a25 (generato[499581]: /usr/lib/systemd/system-generators/systemd-sslh-generator terminated by signal SEGV.
+jan 09 22:36:34 kali-a25 systemd-coredump[501049]: Process 501045 (systemd-sslh-ge) of user 0 dumped core.
+                                                   
+                                                   Stack trace of thread 501045:
+                                                   #0  0x00007fe0b36ae76b n/a (libc.so.6 + 0xae76b)
+                                                   #1  0x00007fe0b368d87c _IO_default_xsputn (libc.so.6 + 0x8d87c)
+                                                   #2  0x00007fe0b368c362 _IO_file_xsputn (libc.so.6 + 0x8c362)
+                                                   #3  0x00007fe0b367fc00 _IO_fwrite (libc.so.6 + 0x7fc00)
+                                                   #4  0x00005605d7a8f901 n/a (/usr/lib/systemd/system-generators/systemd-sslh-generator + 0x1901)
+                                                   #5  0x00007fe0b3629f68 n/a (libc.so.6 + 0x29f68)
+                                                   #6  0x00007fe0b362a025 __libc_start_main (libc.so.6 + 0x2a025)
+                                                   #7  0x00005605d7a8fad1 n/a (/usr/lib/systemd/system-generators/systemd-sslh-generator + 0x1ad1)
+                                                   ELF object binary architecture: AMD x86-64
+░░ Subject: Processo 501045 (systemd-sslh-ge) despejou núcleo
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ Documentation: man:core(5)
+░░ 
+░░ Processo 501045 (systemd-sslh-ge) travou e despejou o núcleo.
+░░ 
+░░ Isso normalmente indica um erro de programação no programa que travou e
+░░ deveria ser relatado para seu fabricante como um erro.
+jan 09 22:36:34 kali-a25 (generato[501029]: /usr/lib/systemd/system-generators/systemd-sslh-generator terminated by signal SEGV.
+jan 09 22:36:43 kali-a25 mariadb-server.postinst[502130]: mysql.user table already exists!
+jan 09 22:36:43 kali-a25 mariadb-server.postinst[502130]: Run mariadb-upgrade, not mariadb-install-db
+jan 09 22:36:57 kali-a25 (generato[503247]: /usr/lib/systemd/system-generators/systemd-sslh-generator terminated by signal ABRT.
+jan 09 22:37:01 kali-a25 (generato[503850]: /usr/lib/systemd/system-generators/systemd-sslh-generator terminated by signal ABRT.
+jan 09 22:37:10 kali-a25 (generato[505237]: /usr/lib/systemd/system-generators/systemd-sslh-generator terminated by signal SEGV.
+jan 09 22:37:31 kali-a25 (generato[507207]: /usr/lib/systemd/system-generators/systemd-sslh-generator terminated by signal ABRT.
+jan 09 22:37:44 kali-a25 (generato[507748]: /usr/lib/systemd/system-generators/systemd-sslh-generator terminated by signal ABRT.
+jan 09 23:19:49 kali-a25 kernel: usb 1-1.1: Failed to access otp area (-32)
+jan 10 00:32:17 kali-a25 (generato[544554]: /usr/lib/systemd/system-generators/systemd-sslh-generator terminated by signal ABRT.
+jan 10 00:32:19 kali-a25 (generato[544867]: /usr/lib/systemd/system-generators/systemd-sslh-generator terminated by signal SEGV.
+jan 10 00:32:21 kali-a25 (generato[545448]: /usr/lib/systemd/system-generators/systemd-sslh-generator terminated by signal ABRT.
+jan 10 00:32:22 kali-a25 (generato[545608]: /usr/lib/systemd/system-generators/systemd-sslh-generator terminated by signal ABRT.
+jan 10 00:32:24 kali-a25 (generato[545907]: /usr/lib/systemd/system-generators/systemd-sslh-generator terminated by signal SEGV.
+jan 10 00:32:25 kali-a25 (generato[546198]: /usr/lib/systemd/system-generators/systemd-sslh-generator terminated by signal ABRT.
+jan 12 23:01:04 kali-a25 kernel: usb 1-1.1: Failed to access otp area (-32)
+jan 12 23:01:05 kali-a25 systemd[1]: Failed to start dailyaidecheck.service - daily AIDE check.
+░░ Subject: A unidade dailyaidecheck.service falhou
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ A unidade dailyaidecheck.service falhou.
+░░ 
+░░ O resultado é failed.
+jan 12 23:08:26 kali-a25 (generato[618688]: /usr/lib/systemd/system-generators/systemd-sslh-generator terminated by signal ABRT.
+jan 12 23:08:32 kali-a25 (generato[618875]: /usr/lib/systemd/system-generators/systemd-sslh-generator terminated by signal ABRT.
+jan 12 23:08:32 kali-a25 (generato[619028]: /usr/lib/systemd/system-generators/systemd-sslh-generator terminated by signal ABRT.
+jan 14 18:47:05 kali-a25 kernel: usb 1-1.1: Failed to access otp area (-32)
+jan 14 18:47:06 kali-a25 systemd[1]: Failed to start dailyaidecheck.service - daily AIDE check.
+░░ Subject: A unidade dailyaidecheck.service falhou
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ A unidade dailyaidecheck.service falhou.
+░░ 
+░░ O resultado é failed.
+jan 14 18:50:49 kali-a25 (generato[631871]: /usr/lib/systemd/system-generators/systemd-sslh-generator terminated by signal SEGV.
+jan 14 18:50:52 kali-a25 (generato[632240]: /usr/lib/systemd/system-generators/systemd-sslh-generator terminated by signal ABRT.
+jan 15 00:08:41 kali-a25 kernel: usb 1-1.1: Failed to access otp area (-32)
+jan 15 01:01:58 kali-a25 sudo[716410]:     vb25 : a password is required ; TTY=pts/4 ; PWD=/home/vb25 ; USER=root ; COMMAND=/usr/bin/true

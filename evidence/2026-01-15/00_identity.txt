@@ -1,0 +1,8 @@
+uid=1000(vb25) gid=1000(vb25) grupos=1000(vb25),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),100(users),101(netdev),103(scanner),116(bluetooth),120(lpadmin),124(wireshark),133(kaboxer)
+vb25
+vb25 adm dialout cdrom floppy sudo audio dip video plugdev users netdev scanner bluetooth lpadmin wireshark kaboxer
+Entradas de Defaults correspondentes a vb25 em kali-a25:
+    env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin, use_pty
+
+Usuário vb25 pode executar os seguintes comandos em kali-a25:
+    (ALL : ALL) ALL

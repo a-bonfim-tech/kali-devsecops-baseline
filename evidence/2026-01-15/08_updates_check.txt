@@ -1,0 +1,136 @@
+Atingido:1 https://dl.google.com/linux/chrome/deb stable InRelease
+Obter:2 http://kali.download/kali kali-rolling InRelease [34,0 kB]
+Obter:3 http://kali.download/kali kali-rolling/main amd64 Packages [20,9 MB]
+Obter:4 http://kali.download/kali kali-rolling/main amd64 Contents (deb) [52,5 MB]
+Obter:5 http://kali.download/kali kali-rolling/contrib amd64 Packages [115 kB]
+Obter:6 http://kali.download/kali kali-rolling/non-free amd64 Packages [190 kB]
+Obter:7 http://kali.download/kali kali-rolling/non-free amd64 Contents (deb) [905 kB]
+Obtidos 74,6 MB em 16s (4.646 kB/s)
+Lendo listas de pacotes...
+NOTA: Esta é apenas uma simulação!
+      apt-get precisa de privilégios de root para execução real.
+      Lembre-se também de que a trava está desativada e,
+      portanto, não dependa da relevância para a situação real atual!
+Lendo listas de pacotes...
+Construindo árvore de dependências...
+Lendo informação de estado...
+Calculando atualização...
+O seguinte pacote foi automaticamente instalado e não é mais requerido:
+  tracker-extract
+Use 'apt autoremove' para removê-lo.
+Os pacotes a seguir serão mantidos em suas versões atuais:
+  dolphin dolphin-data libdolphinvcs6 linux-image-amd64
+Os pacotes a seguir serão atualizados:
+  alsa-ucm-conf apt apt-utils dhcpcd-base dolphin-doc fonts-cantarell
+  gir1.2-gmenu-3.0 gir1.2-gst-plugins-bad-1.0 gnome-menus gnome-remote-desktop
+  gstreamer1.0-plugins-bad ifupdown kali-desktop-core kali-desktop-gnome
+  kali-desktop-kde kali-desktop-xfce kali-linux-core kali-linux-default
+  kali-linux-firmware kali-linux-headless kali-system-cli kali-system-core
+  kali-system-gui kali-tools-top10 libapt-pkg7.0 libegl-mesa0 libgbm1
+  libgl1-mesa-dri libglx-mesa0 libgnome-menu-3-0 libgstreamer-plugins-bad1.0-0
+  liblqr-1-0 libnautilus-extension4 libopenjp2-7 libpcsclite1 linux-libc-dev
+  localsearch mesa-libgallium mesa-vulkan-drivers nautilus nautilus-data
+  network-manager-pptp network-manager-pptp-gnome pcscd python3-aiohttp
+  python3-pynfsclient python3-stack-data python3-virtualenv tftp-hpa
+  tracker-extract
+50 pacotes atualizados, 0 pacotes novos instalados, 0 a serem removidos e 4 não atualizados.
+Inst libapt-pkg7.0 [3.1.12+kali1] (3.1.13+kali1 kali-rolling [amd64])
+Conf libapt-pkg7.0 (3.1.13+kali1 kali-rolling [amd64])
+Inst apt [3.1.12+kali1] (3.1.13+kali1 kali-rolling [amd64]) [apt-utils:amd64 ]
+Conf apt (3.1.13+kali1 kali-rolling [amd64]) [apt-utils:amd64 ]
+Inst apt-utils [3.1.12+kali1] (3.1.13+kali1 kali-rolling [amd64])
+Inst pcscd [2.4.0-2] (2.4.1-1 kali-rolling [amd64]) []
+Inst libpcsclite1 [2.4.0-2] (2.4.1-1 kali-rolling [amd64])
+Inst dhcpcd-base [1:10.3.0-3] (1:10.3.0-7 kali-rolling [amd64])
+Inst ifupdown [0.8.44] (0.8.45 kali-rolling [amd64])
+Inst alsa-ucm-conf [1.2.15-1] (1.2.15.1-1 kali-rolling [all])
+Inst dolphin-doc [4:25.04.3-1] (4:25.12.1-1 kali-rolling [all])
+Inst fonts-cantarell [0.303.1-4] (0.311-1 kali-rolling [all])
+Inst libgnome-menu-3-0 [3.38.1-1] (3.38.1-2 kali-rolling [amd64])
+Inst gir1.2-gmenu-3.0 [3.38.1-1] (3.38.1-2 kali-rolling [amd64])
+Inst libopenjp2-7 [2.5.3-2.1] (2.5.4-1 kali-rolling [amd64])
+Inst gstreamer1.0-plugins-bad [1.26.10-1] (1.26.10-2 kali-rolling [amd64]) []
+Inst libgstreamer-plugins-bad1.0-0 [1.26.10-1] (1.26.10-2 kali-rolling [amd64])
+Inst gir1.2-gst-plugins-bad-1.0 [1.26.10-1] (1.26.10-2 kali-rolling [amd64])
+Inst gnome-menus [3.38.1-1] (3.38.1-2 kali-rolling [amd64])
+Inst gnome-remote-desktop [49.2-1] (49.2-2 kali-rolling [amd64])
+Inst kali-desktop-core [2025.4.14] (2026.1.1 kali-rolling [amd64])
+Inst nautilus [49.2-2] (49.3-1 kali-rolling [amd64]) []
+Inst libnautilus-extension4 [49.2-2] (49.3-1 kali-rolling [amd64]) []
+Inst nautilus-data [49.2-2] (49.3-1 kali-rolling [all])
+Inst tracker-extract [3.8.2-8] (3.8.2-10 kali-rolling [all])
+Inst localsearch [3.8.2-8] (3.8.2-10 kali-rolling [amd64])
+Inst kali-desktop-gnome [2025.4.14] (2026.1.1 kali-rolling [all])
+Inst kali-desktop-kde [2025.4.14] (2026.1.1 kali-rolling [amd64])
+Inst kali-desktop-xfce [2025.4.14] (2026.1.1 kali-rolling [all])
+Inst kali-system-core [2025.4.14] (2026.1.1 kali-rolling [amd64])
+Inst kali-linux-core [2025.4.14] (2026.1.1 kali-rolling [amd64])
+Inst kali-system-cli [2025.4.14] (2026.1.1 kali-rolling [amd64])
+Inst kali-system-gui [2025.4.14] (2026.1.1 kali-rolling [amd64])
+Inst python3-virtualenv [20.35.4+ds-1] (20.36.1+ds-1 kali-rolling [all])
+Inst tftp-hpa [5.3+20251209-1] (5.3+20251209-2 kali-rolling [amd64])
+Inst kali-linux-headless [2025.4.14] (2026.1.1 kali-rolling [amd64])
+Inst kali-tools-top10 [2025.4.14] (2026.1.1 kali-rolling [amd64])
+Inst kali-linux-default [2025.4.14] (2026.1.1 kali-rolling [amd64])
+Inst kali-linux-firmware [2025.4.14] (2026.1.1 kali-rolling [amd64])
+Inst libgl1-mesa-dri [25.3.2-2] (25.3.3-1 kali-rolling [amd64]) []
+Inst libglx-mesa0 [25.3.2-2] (25.3.3-1 kali-rolling [amd64]) []
+Inst libegl-mesa0 [25.3.2-2] (25.3.3-1 kali-rolling [amd64]) []
+Inst libgbm1 [25.3.2-2] (25.3.3-1 kali-rolling [amd64]) []
+Inst mesa-libgallium [25.3.2-2] (25.3.3-1 kali-rolling [amd64])
+Inst liblqr-1-0 [0.4.2-2.1+b2] (0.4.2-2.2 kali-rolling [amd64])
+Inst linux-libc-dev [6.17.10-1kali1] (6.18.3-1kali2 kali-rolling [all])
+Inst mesa-vulkan-drivers [25.3.2-2] (25.3.3-1 kali-rolling [amd64])
+Inst network-manager-pptp-gnome [1.2.12-5] (1.2.12-6 kali-rolling [amd64]) []
+Inst network-manager-pptp [1.2.12-5] (1.2.12-6 kali-rolling [amd64])
+Inst python3-aiohttp [3.13.1-1+b1] (3.13.3-3 kali-rolling [amd64])
+Inst python3-pynfsclient [1.0.2-0kali1] (1.0.5-0kali1 kali-rolling [all])
+Inst python3-stack-data [0.6.3-2] (0.6.3-3 kali-rolling [all])
+Conf apt-utils (3.1.13+kali1 kali-rolling [amd64])
+Conf pcscd (2.4.1-1 kali-rolling [amd64])
+Conf libpcsclite1 (2.4.1-1 kali-rolling [amd64])
+Conf dhcpcd-base (1:10.3.0-7 kali-rolling [amd64])
+Conf ifupdown (0.8.45 kali-rolling [amd64])
+Conf alsa-ucm-conf (1.2.15.1-1 kali-rolling [all])
+Conf dolphin-doc (4:25.12.1-1 kali-rolling [all])
+Conf fonts-cantarell (0.311-1 kali-rolling [all])
+Conf libgnome-menu-3-0 (3.38.1-2 kali-rolling [amd64])
+Conf gir1.2-gmenu-3.0 (3.38.1-2 kali-rolling [amd64])
+Conf libopenjp2-7 (2.5.4-1 kali-rolling [amd64])
+Conf gstreamer1.0-plugins-bad (1.26.10-2 kali-rolling [amd64])
+Conf libgstreamer-plugins-bad1.0-0 (1.26.10-2 kali-rolling [amd64])
+Conf gir1.2-gst-plugins-bad-1.0 (1.26.10-2 kali-rolling [amd64])
+Conf gnome-menus (3.38.1-2 kali-rolling [amd64])
+Conf gnome-remote-desktop (49.2-2 kali-rolling [amd64])
+Conf kali-desktop-core (2026.1.1 kali-rolling [amd64])
+Conf nautilus (49.3-1 kali-rolling [amd64])
+Conf libnautilus-extension4 (49.3-1 kali-rolling [amd64])
+Conf nautilus-data (49.3-1 kali-rolling [all])
+Conf tracker-extract (3.8.2-10 kali-rolling [all])
+Conf localsearch (3.8.2-10 kali-rolling [amd64])
+Conf kali-desktop-gnome (2026.1.1 kali-rolling [all])
+Conf kali-desktop-kde (2026.1.1 kali-rolling [amd64])
+Conf kali-desktop-xfce (2026.1.1 kali-rolling [all])
+Conf kali-system-core (2026.1.1 kali-rolling [amd64])
+Conf kali-linux-core (2026.1.1 kali-rolling [amd64])
+Conf kali-system-cli (2026.1.1 kali-rolling [amd64])
+Conf kali-system-gui (2026.1.1 kali-rolling [amd64])
+Conf python3-virtualenv (20.36.1+ds-1 kali-rolling [all])
+Conf tftp-hpa (5.3+20251209-2 kali-rolling [amd64])
+Conf kali-linux-headless (2026.1.1 kali-rolling [amd64])
+Conf kali-tools-top10 (2026.1.1 kali-rolling [amd64])
+Conf kali-linux-default (2026.1.1 kali-rolling [amd64])
+Conf kali-linux-firmware (2026.1.1 kali-rolling [amd64])
+Conf libgl1-mesa-dri (25.3.3-1 kali-rolling [amd64])
+Conf libglx-mesa0 (25.3.3-1 kali-rolling [amd64])
+Conf libegl-mesa0 (25.3.3-1 kali-rolling [amd64])
+Conf libgbm1 (25.3.3-1 kali-rolling [amd64])
+Conf mesa-libgallium (25.3.3-1 kali-rolling [amd64])
+Conf liblqr-1-0 (0.4.2-2.2 kali-rolling [amd64])
+Conf linux-libc-dev (6.18.3-1kali2 kali-rolling [all])
+Conf mesa-vulkan-drivers (25.3.3-1 kali-rolling [amd64])
+Conf network-manager-pptp-gnome (1.2.12-6 kali-rolling [amd64])
+Conf network-manager-pptp (1.2.12-6 kali-rolling [amd64])
+Conf python3-aiohttp (3.13.3-3 kali-rolling [amd64])
+Conf python3-pynfsclient (1.0.5-0kali1 kali-rolling [all])
+Conf python3-stack-data (0.6.3-3 kali-rolling [all])

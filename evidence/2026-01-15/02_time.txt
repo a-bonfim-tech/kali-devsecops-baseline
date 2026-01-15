@@ -1,0 +1,8 @@
+2026-01-15T01:18:37+01:00
+               Local time: qui 2026-01-15 01:18:37 CET
+           Universal time: qui 2026-01-15 00:18:37 UTC
+                 RTC time: qui 2026-01-15 00:18:37
+                Time zone: Europe/Berlin (CET, +0100)
+System clock synchronized: yes
+              NTP service: active
+          RTC in local TZ: no
