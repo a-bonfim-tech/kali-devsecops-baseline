@@ -1,0 +1,12 @@
+/var/tmp
+/var/tmp/systemd-private-73f81553dc7642fd914a55f576131fe4-upower.service-hJZbrx/tmp
+/var/tmp/systemd-private-73f81553dc7642fd914a55f576131fe4-ModemManager.service-Now7hs/tmp
+/var/tmp/systemd-private-73f81553dc7642fd914a55f576131fe4-fwupd.service-Pqp0Mi/tmp
+/var/tmp/systemd-private-73f81553dc7642fd914a55f576131fe4-polkit.service-2pgx6q/tmp
+/var/tmp/systemd-private-73f81553dc7642fd914a55f576131fe4-colord.service-yMbsvA/tmp
+/var/tmp/systemd-private-73f81553dc7642fd914a55f576131fe4-pcscd.service-q9R4bE/tmp
+/var/tmp/systemd-private-73f81553dc7642fd914a55f576131fe4-haveged.service-Vjp4rP/tmp
+/var/tmp/systemd-private-73f81553dc7642fd914a55f576131fe4-systemd-logind.service-4NWycB/tmp
+/var/tmp/systemd-private-73f81553dc7642fd914a55f576131fe4-power-profiles-daemon.service-M4PqP8/tmp
+/var/lib/php/sessions
+/tmp

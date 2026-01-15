@@ -1,0 +1,12 @@
+# secrets / tokens / keys
+**/*.key
+**/*.pem
+**/*id_rsa*
+**/*.p12
+**/.env
+**/secrets*
+**/token*
+
+# noisy
+**/.DS_Store
+**/tmp/

@@ -1,0 +1,26 @@
+4,0K	/home/[REDACTED_USER]/Área de trabalho
+4,0K	/home/[REDACTED_USER]/Documentos
+4,0K	/home/[REDACTED_USER]/Imagens
+4,0K	/home/[REDACTED_USER]/.john
+4,0K	/home/[REDACTED_USER]/Modelos
+4,0K	/home/[REDACTED_USER]/Músicas
+4,0K	/home/[REDACTED_USER]/Público
+4,0K	/home/[REDACTED_USER]/Vídeos
+8,0K	/home/[REDACTED_USER]/work
+20K	/home/[REDACTED_USER]/evidence
+24K	/home/[REDACTED_USER]/.ssh
+76K	/home/[REDACTED_USER]/.pki
+172K	/home/[REDACTED_USER]/Downloads
+176K	/home/[REDACTED_USER]/.java
+796K	/home/[REDACTED_USER]/CyberPortfolio
+800K	/home/[REDACTED_USER]/.local
+860K	/home/[REDACTED_USER]/joomscan
+3,6M	/home/[REDACTED_USER]/.cache
+9,2M	/home/[REDACTED_USER]/Esteemaudit-Metasploit
+11M	/home/[REDACTED_USER]/Cyber-Portfolio-
+18M	/home/[REDACTED_USER]/.msf4
+144M	/home/[REDACTED_USER]/.config
+154M	/home/[REDACTED_USER]/.zoom
+161M	/home/[REDACTED_USER]/.mozilla
+606M	/home/[REDACTED_USER]/.BurpSuite
+1,5G	/home/[REDACTED_USER]
