@@ -1,0 +1,51 @@
+  UNIT                   LOAD   ACTIVE SUB    DESCRIPTION
+● dailyaidecheck.service loaded failed failed daily AIDE check
+● fail2ban.service       loaded failed failed Fail2Ban Service
+
+Legend: LOAD   → Reflects whether the unit definition was properly loaded.
+        ACTIVE → The high-level unit activation state, i.e. generalization of SUB.
+        SUB    → The low-level unit activation state, values depend on unit type.
+
+2 loaded units listed.
+UNIT FILE                          STATE   PRESET
+accounts-daemon.service            enabled enabled
+console-setup.service              enabled enabled
+cron.service                       enabled enabled
+docker.service                     enabled enabled
+fail2ban.service                   enabled disabled
+getty@.service                     enabled enabled
+haveged.service                    enabled enabled
+keyboard-setup.service             enabled enabled
+ModemManager.service               enabled enabled
+networking.service                 enabled enabled
+NetworkManager-dispatcher.service  enabled disabled
+NetworkManager-wait-online.service enabled disabled
+NetworkManager.service             enabled enabled
+regenerate-ssh-host-keys.service   enabled enabled
+smartmontools.service              enabled enabled
+systemd-pstore.service             enabled enabled
+systemd-timesyncd.service          enabled enabled
+ufw.service                        enabled enabled
+docker.socket                      enabled enabled
+pcscd.socket                       enabled enabled
+systemd-userdbd.socket             enabled enabled
+nfs-client.target                  enabled enabled
+remote-fs.target                   enabled enabled
+stunnel.target                     enabled enabled
+apt-daily-upgrade.timer            enabled disabled
+apt-daily.timer                    enabled disabled
+dailyaidecheck.timer               enabled enabled
+dpkg-db-backup.timer               enabled enabled
+e2scrub_all.timer                  enabled enabled
+exim4-base.timer                   enabled enabled
+fstrim.timer                       enabled enabled
+fwupd-refresh.timer                enabled enabled
+logrotate.timer                    enabled enabled
+man-db.timer                       enabled enabled
+phpsessionclean.timer              enabled enabled
+plocate-updatedb.timer             enabled enabled
+sysstat-collect.timer              enabled enabled
+sysstat-rotate.timer               enabled enabled
+sysstat-summary.timer              enabled enabled
+
+39 unit files listed.

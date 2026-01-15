@@ -1,0 +1,10 @@
+Status: active
+Logging: on (medium)
+Default: deny (incoming), allow (outgoing), deny (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+53                         ALLOW OUT   Anywhere                  
+67,68/udp                  ALLOW OUT   Anywhere                  
+

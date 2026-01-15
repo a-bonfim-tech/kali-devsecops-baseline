@@ -1,0 +1,40 @@
+Você desejar instalá-lo? (N/s)Lendo listas de pacotes...
+Construindo árvore de dependências...
+Lendo informação de estado...
+Resolvendo dependências...
+Instalando:
+  systemd-resolved
+
+Instalando dependências:
+  libnss-resolve
+
+Resumo:
+  Atualizando: 0, Instalando: 2, Removendo: 0, Não atualizando: 54
+  Tamanho de download: 489 kB
+  Espaço necessário: 1.201 kB / 75,2 GB disponível
+
+Continuar? [S/n] Obter:1 http://kali.download/kali kali-rolling/main amd64 libnss-resolve amd64 259-1 [147 kB]
+Obter:2 http://kali.download/kali kali-rolling/main amd64 systemd-resolved amd64 259-1 [342 kB]
+Obtidos 489 kB em 1s (869 kB/s)
+Selecionando pacote previamente não selecionado libnss-resolve:amd64.
+(Lendo banco de dados ... (Lendo banco de dados ... 5%(Lendo banco de dados ... 10%(Lendo banco de dados ... 15%(Lendo banco de dados ... 20%(Lendo banco de dados ... 25%(Lendo banco de dados ... 30%(Lendo banco de dados ... 35%(Lendo banco de dados ... 40%(Lendo banco de dados ... 45%(Lendo banco de dados ... 50%(Lendo banco de dados ... 55%(Lendo banco de dados ... 60%(Lendo banco de dados ... 65%(Lendo banco de dados ... 70%(Lendo banco de dados ... 75%(Lendo banco de dados ... 80%(Lendo banco de dados ... 85%(Lendo banco de dados ... 90%(Lendo banco de dados ... 95%(Lendo banco de dados ... 100%(Lendo banco de dados ... 580327 arquivos e diretórios atualmente instalados).
+Preparando para desempacotar .../libnss-resolve_259-1_amd64.deb ...
+Desempacotando libnss-resolve:amd64 (259-1) ...
+Selecionando pacote previamente não selecionado systemd-resolved.
+Preparando para desempacotar .../systemd-resolved_259-1_amd64.deb ...
+Desempacotando systemd-resolved (259-1) ...
+Configurando libnss-resolve:amd64 (259-1) ...
+Configurando systemd-resolved (259-1) ...
+Converting /etc/resolv.conf to a symlink to /run/systemd/resolve/stub-resolv.conf...
+Creating group 'systemd-resolve' with GID 975.
+Creating user 'systemd-resolve' (systemd Resolver) with UID 975 and GID 975.
+Created symlink '/etc/systemd/system/dbus-org.freedesktop.resolve1.service' → '/usr/lib/systemd/system/systemd-resolved.service'.
+Created symlink '/etc/systemd/system/sysinit.target.wants/systemd-resolved.service' → '/usr/lib/systemd/system/systemd-resolved.service'.
+Created symlink '/etc/systemd/system/sockets.target.wants/systemd-resolved-varlink.socket' → '/usr/lib/systemd/system/systemd-resolved-varlink.socket'.
+Created symlink '/etc/systemd/system/sockets.target.wants/systemd-resolved-monitor.socket' → '/usr/lib/systemd/system/systemd-resolved-monitor.socket'.
+Processando gatilhos para libc-bin (2.42-5) ...
+Processando gatilhos para man-db (2.13.1-1) ...
+Processando gatilhos para dbus (1.16.2-2) ...
+Processando gatilhos para kali-menu (2025.4.3) ...
+needrestart is being skipped since dpkg has failed
+sudo apt install systemd-resolved
