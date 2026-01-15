@@ -1,0 +1,13 @@
+4,0K	/.cache
+4,0K	/mnt
+8,0K	/media
+8,0K	/srv
+16K	/lost+found
+64K	/root
+18M	/etc
+437M	/boot
+1,4G	/var
+1,5G	/home
+1,5G	/opt
+20G	/usr
+29G	/

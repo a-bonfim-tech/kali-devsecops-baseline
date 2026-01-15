@@ -1,0 +1,1 @@
+vb25 adm dialout cdrom floppy sudo audio dip video plugdev users netdev scanner bluetooth lpadmin wireshark kaboxer

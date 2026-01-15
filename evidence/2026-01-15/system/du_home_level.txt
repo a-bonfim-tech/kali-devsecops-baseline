@@ -1,0 +1,26 @@
+4,0K	/home/vb25/Área de trabalho
+4,0K	/home/vb25/Documentos
+4,0K	/home/vb25/Imagens
+4,0K	/home/vb25/.john
+4,0K	/home/vb25/Modelos
+4,0K	/home/vb25/Músicas
+4,0K	/home/vb25/Público
+4,0K	/home/vb25/Vídeos
+8,0K	/home/vb25/work
+20K	/home/vb25/evidence
+24K	/home/vb25/.ssh
+76K	/home/vb25/.pki
+172K	/home/vb25/Downloads
+176K	/home/vb25/.java
+796K	/home/vb25/CyberPortfolio
+800K	/home/vb25/.local
+860K	/home/vb25/joomscan
+3,6M	/home/vb25/.cache
+9,2M	/home/vb25/Esteemaudit-Metasploit
+11M	/home/vb25/Cyber-Portfolio-
+18M	/home/vb25/.msf4
+144M	/home/vb25/.config
+154M	/home/vb25/.zoom
+161M	/home/vb25/.mozilla
+606M	/home/vb25/.BurpSuite
+1,5G	/home/vb25
