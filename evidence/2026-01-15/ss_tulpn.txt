@@ -1,0 +1,19 @@
+Netid State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess                                   
+udp   UNCONN 0      0         127.0.0.54:53         0.0.0.0:*                                             
+udp   UNCONN 0      0      127.0.0.53%lo:53         0.0.0.0:*                                             
+udp   UNCONN 0      0            0.0.0.0:35190      0.0.0.0:*    users:(("firefox-esr",pid=454496,fd=211))
+udp   UNCONN 0      0            0.0.0.0:4500       0.0.0.0:*                                             
+udp   UNCONN 0      0            0.0.0.0:500        0.0.0.0:*                                             
+udp   UNCONN 0      0            0.0.0.0:5355       0.0.0.0:*                                             
+udp   UNCONN 0      0            0.0.0.0:44388      0.0.0.0:*    users:(("firefox-esr",pid=454496,fd=145))
+udp   UNCONN 0      0            0.0.0.0:56823      0.0.0.0:*    users:(("firefox-esr",pid=454496,fd=115))
+udp   UNCONN 0      0               [::]:4500          [::]:*                                             
+udp   UNCONN 0      0               [::]:500           [::]:*                                             
+udp   UNCONN 0      0               [::]:5355          [::]:*                                             
+udp   UNCONN 0      0                  *:1716             *:*    users:(("kdeconnectd",pid=1954,fd=25))   
+tcp   LISTEN 0      4096       127.0.0.1:37097      0.0.0.0:*                                             
+tcp   LISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*                                             
+tcp   LISTEN 0      4096      127.0.0.54:53         0.0.0.0:*                                             
+tcp   LISTEN 0      4096         0.0.0.0:5355       0.0.0.0:*                                             
+tcp   LISTEN 0      50                 *:1716             *:*    users:(("kdeconnectd",pid=1954,fd=26))   
+tcp   LISTEN 0      4096            [::]:5355          [::]:*                                             

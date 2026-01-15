@@ -1,0 +1,8 @@
+NAME     SIZE TYPE FSTYPE MOUNTPOINT LABEL  MODEL
+sda    111,8G disk                          Samsung SSD 840 Series
+├─sda1   976M part vfat   /boot/efi         
+├─sda2   107G part ext4   /                 
+└─sda3   3,8G part swap   [SWAP]            
+sdb     57,3G disk                          SanDisk 3.2Gen1
+└─sdb1  57,3G part ext4              BACKUP 
+sr0     1024M rom                           MATSHITA DVD-RAM UJ8E1

@@ -1,0 +1,4 @@
+Distributor ID:	Kali
+Description:	Kali GNU/Linux Rolling
+Release:	2025.4
+Codename:	kali-rolling
