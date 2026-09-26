@@ -2,74 +2,74 @@
 
 # kali-devsecops-baseline
 
-Baseline operacional (mínimo, repetível e verificável) para manter um host Kali Linux em postura segura de workstation/cliente, com evidência diária versionada e pronta para auditoria e portfolio.
+Operational baseline (minimal, repeatable, and verifiable) for maintaining a Kali Linux host in a secure workstation/client posture, with versioned daily evidence ready for audit and portfolio review.
 
-## Objetivo
+## Objective
 
-1) Reduzir superfície de ataque do host (modo cliente).  
-2) Garantir rastreabilidade: “executar → registrar → versionar → publicar”.  
-3) Produzir evidência externa (GitHub) com material verificável.
+1) Reduce the host attack surface (client mode).
+2) Ensure traceability: “execute → record → version → publish”.
+3) Produce external evidence (GitHub) with verifiable material.
 
-## Escopo
+## Scope
 
-Inclui:
-- Snapshot diário de sistema/rede/firewall/disco em `evidence/YYYY-MM-DD/`
-- Política UFW para modo **cliente/workstation**: `deny incoming`, `allow outgoing`, logging controlado
-- Runbooks e scripts para execução padronizada
+Includes:
+- Daily system/network/firewall/disk snapshot in `evidence/YYYY-MM-DD/`
+- UFW policy for **client/workstation** mode: `deny incoming`, `allow outgoing`, controlled logging
+- Runbooks and scripts for standardized execution
 
-Não inclui (por enquanto):
-- Hardening avançado (CIS completo, AppArmor tuning, auditd ruleset abrangente, SELinux etc.)
+Not currently included:
+- Advanced hardening (full CIS, AppArmor tuning, comprehensive auditd ruleset, SELinux, etc.)
 
-## Estrutura do repositório
+## Repository structure
 
-- `configs/`  arquivos de configuração (UFW, network, templates)
-- `scripts/`  scripts executáveis para coleta de evidências e aplicação de baseline
-- `runbooks/` procedimentos operacionais (passo a passo auditável)
-- `evidence/YYYY-MM-DD/` evidências do dia (saídas de comandos, status, checks)
-- `reports/` relatórios resumidos (ex.: weekly/monthly, comparativos)
+- `configs/` configuration files (UFW, network, templates)
+- `scripts/` executable scripts for evidence collection and baseline application
+- `runbooks/` operational procedures (auditable step-by-step)
+- `evidence/YYYY-MM-DD/` daily evidence (command outputs, status, checks)
+- `reports/` summary reports (e.g., weekly/monthly, comparisons)
 
-## Modelo operacional diário (10–15 minutos)
+## Daily operational model (10–15 minutes)
 
-1) Coletar evidências:
-   - estado do sistema (kernel, pacotes, usuários)
-   - rede (interfaces, rotas, DNS)
+1) Collect evidence:
+   - system state (kernel, packages, users)
+   - network (interfaces, routes, DNS)
    - firewall (UFW status + logs)
    - storage (df, lsblk)
 
-2) Verificar baseline:
-   - UFW ativo e coerente com “cliente”
-   - serviços expostos minimizados
-   - atualizações planejadas (sem “upgrade cego” em horário crítico)
+2) Verify baseline:
+   - UFW active and consistent with “client” mode
+   - exposed services minimized
+   - updates planned (no “blind upgrade” during critical hours)
 
-3) Publicar evidência:
+3) Publish evidence:
    - `git add`
    - `git commit -m "evidence: YYYY-MM-DD baseline snapshot"`
    - `git push`
 
-## UFW (modo cliente/workstation)
+## UFW (client/workstation mode)
 
-Premissa: este host NÃO é servidor. Logo:
-- inbound: bloqueado por padrão
-- outbound: permitido por padrão (com logging sob controle)
+Premise: this host is NOT a server. Therefore:
+- inbound: blocked by default
+- outbound: allowed by default (with controlled logging)
 
-Exemplo de estado esperado:
+Expected state example:
 - `Default: deny (incoming), allow (outgoing)`
-- `ufw status verbose` sem portas abertas desnecessárias
+- `ufw status verbose` with no unnecessary open ports
 
-Observação: ICMP (ping) não é “proto icmp” no UFW. UFW é front-end para iptables/nftables; ICMP costuma ser tratado em regras “before/after”. Este repositório terá um runbook específico para isso quando necessário.
+Note: ICMP (ping) is not “proto icmp” in UFW. UFW is a front end for iptables/nftables; ICMP is typically handled in “before/after” rules. This repository will have a specific runbook for this when necessary.
 
-## Evidência e auditabilidade
+## Evidence and auditability
 
-Cada execução deve gerar artefatos verificáveis:
-- arquivos de saída em `evidence/YYYY-MM-DD/`
-- commit assinado opcionalmente (melhoria futura)
-- trilha clara de mudança: o que mudou, por que mudou, quando mudou
+Each execution should generate verifiable artifacts:
+- output files in `evidence/YYYY-MM-DD/`
+- optionally signed commit (future improvement)
+- clear change trail: what changed, why it changed, and when it changed
 
-## Roadmap (módulos futuros)
+## Roadmap (future modules)
 
-- AppArmor baseline por perfil
-- auditd (regras mínimas + export)
-- hardening sysctl (curado)
-- scan local (lynis) + relatório
-- verificação de serviços/listeners (ss/lsof) com diffs
+- AppArmor baseline by profile
+- auditd (minimal rules + export)
+- sysctl hardening (curated)
+- local scan (lynis) + report
+- service/listener verification (ss/lsof) with diffs
 

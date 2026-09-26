@@ -31,7 +31,7 @@ run 13_world_writable  bash -lc 'sudo find / -xdev -type d -perm -0002 -print 2>
 run 14_suid_sgid       bash -lc 'sudo find / -xdev -type f \( -perm -4000 -o -perm -2000 \) -printf "%m %u:%g %p\n" 2>/dev/null | sort | sed -n "1,200p"'
 run 15_cron            bash -lc 'sudo ls -la /etc/cron.* /etc/crontab 2>/dev/null || true'
 
-# Relatório curto (portfólio-friendly)
+# Short report (portfolio-friendly)
 cat > "$RPT/SECOPS-DAILY.md" <<MD
 # Daily SecOps Report — $D ($HOST)
 

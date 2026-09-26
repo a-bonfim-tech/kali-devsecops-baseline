@@ -13,7 +13,7 @@ lsb_release -a 2>/dev/null | tee "$EVD/lsb_release.txt" >/dev/null || true
 whoami | tee "$EVD/whoami.txt" >/dev/null
 id | tee "$EVD/id.txt" >/dev/null
 
-# rede
+# network
 ip a | tee "$EVD/ip_a.txt" >/dev/null
 ip r | tee "$EVD/ip_r.txt" >/dev/null
 resolvectl status 2>/dev/null | tee "$EVD/resolvectl_status.txt" >/dev/null || true
@@ -27,7 +27,7 @@ sudo ufw show raw | tee "$EVD/ufw_show_raw.txt" >/dev/null || true
 df -h | tee "$EVD/df_h.txt" >/dev/null
 lsblk -o NAME,SIZE,TYPE,FSTYPE,MOUNTPOINT,LABEL,MODEL | tee "$EVD/lsblk.txt" >/dev/null
 
-# listeners (visão rápida)
+# listeners (quick view)
 ss -tulpn | tee "$EVD/ss_tulpn.txt" >/dev/null || true
 
-echo "OK: evidências em $EVD"
+echo "OK: evidence stored in $EVD"
