@@ -1,3 +1,5 @@
+![kali-devsecops-baseline banner](assets/kali-devsecops-baseline-banner.png)
+
 # kali-devsecops-baseline
 
 Baseline operacional (mínimo, repetível e verificável) para manter um host Kali Linux em postura segura de workstation/cliente, com evidência diária versionada e pronta para auditoria e portfolio.
